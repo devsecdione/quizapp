@@ -19,7 +19,9 @@
     --bg-security: #f6e7ff;
     --white: #fff;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
+    --bg-desktop: url(./assets/images/pattern-background-desktop-light.svg);
 }
+
 
 body {   
     height: 100svh;
@@ -77,7 +79,7 @@ main h1 {
     margin-bottom: 16px;
 }
 
-.boas_vindas h1 strong {
+.boas-vindas h1 strong {
     font-weight: 500;
 }
 
@@ -89,10 +91,6 @@ main p {
 }
 
 .assuntos {
-<<<<<<< HEAD
-=======
-    
->>>>>>> origin/main
     display:flex;
     flex-direction: column;
     gap: 12px;
@@ -107,7 +105,6 @@ main p {
     padding: 12px;
     border-radius: 12px;
     box-shadow: var(--shadow);
-<<<<<<< HEAD
     font-size: 16px;
     font-weight: 600;
     color: var(--primary-txt-color);
@@ -122,8 +119,6 @@ main p {
 
 .assuntos button img {
     width: 100%;
-=======
->>>>>>> origin/main
 }
 
 .botao_ceh div {
@@ -141,4 +136,57 @@ main p {
 
 .botao_securityplus div {
     background: var(--bg-security);
+}
+
+@media(min-width: 1100px) {
+    body {
+        background: var(--bg-desktop) var(--bg-color);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+header {
+    margin-block: 81px;
+}
+
+.tema img {
+    
+}
+
+main {
+    display: flex;
+    max-width: 1160px;
+    margin-inline: auto;
+}
+
+section {
+    width: 100%;
+}
+
+.boas-vindas h1 {
+    font-size: 64px;
+    margin-bottom: 48px;
+}
+
+.boas-vindas p {
+    font-size: 20px;
+}
+
+.assuntos {
+    gap: 24px;
+}
+
+.assuntos button {
+    font-size: 28px;
+    padding: 28px;
+    gap: 32px;
+}
+
+.assuntos button div {
+    width: 56px;
+    height: 56px;
+    padding: 8px;
+
+}
+
 }

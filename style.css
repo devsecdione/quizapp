@@ -10,6 +10,7 @@
     --bg-color: #f6f6f6;
     --purple: #a729f5;
     --primary-txt-color: #313e51;
+    --secondary-text-color: #626c7f;
     --white: #fff;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
 }
@@ -59,9 +60,24 @@ main {
 
 }
 
+main p {
+    margin-bottom: 30px;
+}
 main h1 {
 
     font-size: 30px;
     font-weight: 300;
     color: var(--primary-txt-color);
+    margin-bottom: 16px;
+}
+
+.boas_vindas h1 strong {
+    font-weight: 500;
+}
+
+main p {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 150%;
+    font-style: italic;
 }

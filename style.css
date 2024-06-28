@@ -89,7 +89,6 @@ main p {
 }
 
 .assuntos {
-    border: 1px solid red;
     display:flex;
     flex-direction: column;
     gap: 12px;
@@ -104,6 +103,20 @@ main p {
     padding: 12px;
     border-radius: 12px;
     box-shadow: var(--shadow);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-txt-color);
+}
+
+.assuntos button div {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.assuntos button img {
+    width: 100%;
 }
 
 .botao_ceh div {

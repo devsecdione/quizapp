@@ -89,6 +89,10 @@ main p {
 }
 
 .assuntos {
+<<<<<<< HEAD
+=======
+    
+>>>>>>> origin/main
     display:flex;
     flex-direction: column;
     gap: 12px;
@@ -103,6 +107,7 @@ main p {
     padding: 12px;
     border-radius: 12px;
     box-shadow: var(--shadow);
+<<<<<<< HEAD
     font-size: 16px;
     font-weight: 600;
     color: var(--primary-txt-color);
@@ -117,6 +122,8 @@ main p {
 
 .assuntos button img {
     width: 100%;
+=======
+>>>>>>> origin/main
 }
 
 .botao_ceh div {

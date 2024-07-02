@@ -13,9 +13,9 @@
     --secondary-text-color: #626c7f;
     --button-bg: #fff;
     --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
-    --bg-ceh: #fff;
-    --bg-oscp: #e0fdef;
-    --bg-osce: #ebf0ff;
+    --bg-ceh: #1f1e1e;
+    --bg-oscp: #f1cebd;
+    --bg-osce: #e0fdef;
     --bg-security: #f6e7ff;
     --white: #fff;
     --bg-mobile: url(./assets/images/pattern-background-mobile-light.svg);
@@ -120,8 +120,8 @@ main p {
 }
 
 .assuntos button div {
-    width: 40px;
-    height: 40px;
+    width: 90px;
+    height: 90px;
     padding: 5px;
     border-radius: 5px;
 }

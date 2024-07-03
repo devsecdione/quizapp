@@ -32,7 +32,7 @@ body.escuro {
     --shadow: 0px 16px 40px 0px rgba(49, 62, 81, 0.14);
 }
 
-body {   
+body {
     height: 100svh;
     background: var(--bg-mobile), var(--bg-color);
     background-repeat: no-repeat;
@@ -84,7 +84,7 @@ header {
 
 .tema button {
     height: 20px;
-    width: 32px; 
+    width: 32px;
     background: var(--purple);
     border: 0;
     border-radius: 999px;
@@ -109,9 +109,22 @@ main {
     margin-bottom: 12px;
 }
 
-@media(min-width: 1100px)
+.pergunta h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-txt-color);
+    line-height: 24px;
+    margin-bottom: 24px;
 
-.tema {
+}
+
+.barra_progresso {
+    background: var(--button-bg);
+    height: 16px;
+
+}
+
+@media(min-width: 1100px) .tema {
     gap: 16px
 }
 
@@ -128,4 +141,3 @@ main {
     width: 28px;
     height: 20px;
 }
-

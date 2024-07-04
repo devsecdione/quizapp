@@ -124,6 +124,12 @@ main {
 
 }
 
+.barra_progresso div {
+    height: 100%;
+    width: 50%;
+    background: var(--purple);
+}
+
 @media(min-width: 1100px) .tema {
     gap: 16px
 }

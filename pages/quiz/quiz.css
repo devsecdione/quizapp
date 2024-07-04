@@ -18,6 +18,8 @@
     --bg-osce: #e0fdef;
     --bg-security: #dcbaf0;
     --white: #fff;
+    --green: #26d782;
+    --red: #ee5454;
     --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
 }
@@ -158,6 +160,25 @@ main {
         color: var(--white);
     }
 
+}
+
+.alternativas label#correta {
+    outline: 3px solid var(--green);
+
+    & span {
+        background: var(--green);
+        color: var(--white);
+    }
+    
+}
+
+.alternativas label#errada {
+    outline: 3px solid var(--red);
+
+    & span {
+        background: var(--red);
+        color: var(--white);
+    }
 }
 
 .alternativas input {

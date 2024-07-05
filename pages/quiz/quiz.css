@@ -234,6 +234,12 @@ main {
     }
 
 @media (min-width: 1100px) {
+        body {
+            background: var(--bg-desktop) var(--bg-color);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
     header {
         margin-block: 81px;
         max-width: 1160px;
@@ -293,8 +299,8 @@ main {
     }
 
     .pergunta h2 {
-        font-size: 36px;
-        line-height: 42px;
+        font-size: 21px;
+        /*line-height: 42px; */
     }
 
     .alternativas form {

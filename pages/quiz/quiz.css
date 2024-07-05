@@ -154,31 +154,29 @@ main {
 
 .alternativas label:has(input:checked) {
     outline: 3px solid var(--purple);
+}
 
-    & span {
-        background: var(--purple);
-        color: var(--white);
-    }
-
+.alternativas label:has(input:checked) span {
+    background: var(--purple);
+    color: var(--white);
 }
 
 .alternativas label#correta {
     outline: 3px solid var(--green);
+}
 
-    & span {
-        background: var(--green);
-        color: var(--white);
-    }
-    
+.alternativas label#correta span {
+    background: var(--green);
+    color: var(--white);
 }
 
 .alternativas label#errada {
     outline: 3px solid var(--red);
+}
 
-    & span {
-        background: var(--red);
-        color: var(--white);
-    }
+.alternativas label#errada span {
+    background: var(--red);
+    color: var(--white);
 }
 
 .alternativas input {
@@ -189,7 +187,6 @@ main {
     display: flex;
     align-items: center;
     gap: 16px;
-
 }
 
 .alternativas div span {
@@ -199,7 +196,7 @@ main {
     background: var(--bg-color);
     border-radius: 5px;
     color: var(--secondary-text-color);
-
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -213,13 +210,27 @@ main {
     background: var(--purple);
     color: var(--white);
     width: 100%;
-
     font-size: 18px;
     font-weight: 500;
-
 }
 
-@media(min-width: 1100px) {
+@media (min-width: 1100px) {
+    header {
+        margin-block: 81px;
+        max-width: 1160px;
+        margin-inline: auto;
+    }
+
+    .assunto_icone {
+        width: 56px;
+        height: 56px;
+        padding: 8px;
+    }
+
+    .assunto h1 {
+        font-size: 28px;
+    }
+
     .tema {
         gap: 16px;
     }
@@ -237,4 +248,60 @@ main {
         width: 28px;
         height: 20px;
     }
+
+    main {
+        max-width: 1160px;
+        margin-inline: auto;
+        display: flex;
+        gap: 130px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .pergunta {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .pergunta p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 27px;
+
+    }
+
+    .pergunta h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .alternativas form {
+        gap: 24px;
+        margin-bottom: 26px;
+    }
+
+    .alternativas label {
+        font-size: 14px;
+        padding: 18px 20px;
+    }
+
+    .alternativas div {
+        gap: 32px;
+    }
+
+    .alternativas div span {
+        width: 26px;
+        height: 26px;
+        font-size: 20px;
+    }
+
+    .alternativas button {
+        font-size: 22px;
+    }
+
 }
+
+

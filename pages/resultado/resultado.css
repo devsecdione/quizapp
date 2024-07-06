@@ -7,10 +7,10 @@
 }
 
 :root {
-    --bg-color: #f4f6fa; /* Corrigido para manter um único valor */
+    --bg-color: #f4f6fa;
     --bg-color-span: #626c7f;
     --purple: #a729f5;
-    --purple-hover: rgba(167, 41, 245, 0.6); /* Corrigido para rgba */
+    --purple-hover: rgba(167, 41, 245, 0.6);
     --primary-txt-color: #313e51;
     --secondary-text-color: #626c7f;
     --pontuacao-bg: #fff;
@@ -130,7 +130,7 @@ main h2 strong {
 .pontuacao strong {
     font-size: 88px;
     color: var(--primary-txt-color);
-    font-weight: 500px;
+    font-weight: 500;
 }
 
 .pontuacao p {
@@ -155,9 +155,9 @@ main button:hover {
     cursor: pointer;
 }
 
-@media(min-width: 1100px) {
+@media (min-width: 1100px) {
     body {
-        background: var(--bg-desktop), var(--bg-color); /* Adicionado vírgula */
+        background: var(--bg-desktop), var(--bg-color);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -212,4 +212,23 @@ main button:hover {
         font-size: 54px;
     }
 
+    .pontuacao {
+        border-radius: 24px;
+        margin-bottom: 32px;
+
+    }
+
+    .pontuacao strong {
+        font-size: 144px;
+    }
+
+    .pontuacao p {
+        font-size: 24px;
+    }
+
+    main button {
+        font-size: 18px;
+        padding: 16px;
+        border-radius: 20px;
+    }
 }

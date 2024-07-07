@@ -30,4 +30,3 @@ export function verificarTema(body, botaoTema) {
     return tema
 }
 
-
